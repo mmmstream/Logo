@@ -99,7 +99,7 @@ function draw() {
   }
   
   //Display texture filename (debugging)
-  text(textDbug,-15,110);
+  //text(textDbug,-15,110);
   //Display blender file number
   //text(blenderFileNo, -15,130);
   
@@ -107,7 +107,7 @@ function draw() {
   texture(img);
   scale(4);
   noStroke();
-  //model(logo);
+  model(logo);
   
   //Add clouds
   //TODO: Make clouds add randomly based on RNG and move
@@ -144,7 +144,7 @@ function draw() {
   ellipse(random(width),random(height),2,2);
   
   //Open link to website
-  cnv.mouseClicked(window.open("https://www.google.com"));
+  //cnv.mouseClicked(window.open("https://www.google.com"));
   
 }
 
